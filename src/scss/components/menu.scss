@@ -1,5 +1,5 @@
 .context-menu {
-  background: #f9d0a0;
+  background: #392016;
   display: none;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,7 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  gap: 28px;
+  gap: 32px;
 }
 
 .context-list-item {
@@ -35,17 +35,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #3e332b;
+  color: #fff4e6;
   transition:
     color 0.3s ease-in-out,
     background 0.3s ease-in-out;
 
   &:active {
-    color: #205144;
+    color: #ff8a00;
   }
 }
 
