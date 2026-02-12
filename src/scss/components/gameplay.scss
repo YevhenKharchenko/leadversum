@@ -1,8 +1,10 @@
 .gameplay-section {
   padding-top: 80px;
+  padding-bottom: 27px;
 
   @include media(desktop) {
     padding-top: 130px;
+    padding-bottom: 35px;
   }
 }
 

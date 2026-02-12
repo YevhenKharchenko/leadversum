@@ -1,8 +1,16 @@
 .about-gameplay-section-wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
   padding-top: 60px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
 
   @include media(desktop) {
+    padding-left: 80px;
+    padding-right: 80px;
     padding-top: 130px;
+    max-width: 1440px;
   }
 }
 
