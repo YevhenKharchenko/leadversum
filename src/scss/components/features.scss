@@ -10,74 +10,84 @@
   margin-right: auto;
 
   @include media(desktop) {
-    padding-top: 150px;
+    padding-top: 130px;
     max-width: 1440px;
   }
 }
 
 .features-container {
-  padding: 0;
-
   @include media(desktop) {
   }
 }
 
 .features-content-wrapper {
   @include media(desktop) {
-    padding: 94px 80px;
-    background-image: url(../img/features/features-bg-desk.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
+    position: relative;
   }
 }
 
-.features-img {
-  margin-left: auto;
-  margin-right: auto;
+.features-text {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  text-align: center;
+  color: #fff4e6;
   margin-bottom: 20px;
 
   @include media(desktop) {
-    display: none;
+    max-width: 846px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 36px;
   }
 }
 
 .features-list {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  padding: 0 20px;
+  align-items: center;
+  gap: 12px;
 
   @include media(desktop) {
+    flex-direction: row;
+    justify-content: center;
     gap: 20px;
     padding: 0;
-    max-width: 522px;
   }
 }
 
 .features-list-item {
+  background: #663a28;
+  border-radius: 20px;
+  padding: 16px;
   display: flex;
-  align-items: start;
-  gap: 10px;
-
-  @include media(desktop) {
-  }
-}
-
-.puzzle-icon {
-  min-width: 32px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 305px;
 
   @include media(desktop) {
   }
 }
 
 .features-item-text {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
-  color: #3e332b;
+  color: #fff4e6;
 
   @include media(desktop) {
+  }
+}
+
+.features-img {
+  display: none;
+
+  @include media(desktop) {
+    display: block;
+    position: absolute;
+    bottom: 44px;
+    right: 19px;
   }
 }

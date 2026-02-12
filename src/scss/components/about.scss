@@ -1,27 +1,38 @@
-.about-section {
+.about-gameplay-bg-wrapper {
+  max-width: 335px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #663a28;
+  border-radius: 20px;
+
   @include media(desktop) {
+    max-width: 1280px;
+    background-color: transparent;
+    background-image: url(../img/about/about-bg-desk.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: auto;
   }
 }
 
-.about-bg-wrapper {
-  padding-top: 80px;
-  max-width: 375px;
-  margin-left: auto;
-  margin-right: auto;
+.about-section {
+  padding-top: 27px;
 
   @include media(desktop) {
-    padding-top: 150px;
-    max-width: 1440px;
+    padding-top: 20px;
   }
 }
 
 .about-container {
+  padding: 0;
+
   @include media(desktop) {
   }
 }
 
 .about-title {
   @include media(desktop) {
+    margin-bottom: -27px;
   }
 }
 
@@ -31,15 +42,12 @@
   gap: 20px;
 
   @include media(desktop) {
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
-  }
-}
-
-.about-img-wrapper {
-  @include media(desktop) {
-    order: 2;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -48,36 +56,31 @@
   margin-right: auto;
 
   @include media(desktop) {
-    min-width: 454px;
+    min-width: 313px;
     margin: 0;
   }
 }
 
 .about-text {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
-  color: #000;
+  color: #fff4e6;
 
   @include media(desktop) {
-  }
-}
-
-.about-top-text {
-  @include media(desktop) {
-    max-width: 325px;
-    order: 1;
-  }
-}
-
-.about-bottom-text {
-  @include media(desktop) {
-    max-width: 305px;
-    order: 3;
+    max-width: 520px;
   }
 }
 
 .about-text-span {
   font-weight: 700;
+}
+
+.about-br {
+  display: none;
+
+  @include media(desktop) {
+    display: block;
+  }
 }
