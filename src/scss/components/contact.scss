@@ -9,14 +9,11 @@
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
 
   @include media(desktop) {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 130px;
+    padding-bottom: 130px;
     max-width: 1440px;
-    position: relative;
-    overflow: hidden;
   }
 }
 
@@ -26,19 +23,18 @@
 }
 
 .contact-title {
-  margin-bottom: 38px;
-
   @include media(desktop) {
   }
 }
 
 .contact-subtitle {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 700;
+  font-family: 'Fredoka One', sans-serif;
+  font-weight: 400;
   font-size: 20px;
   line-height: 1.5;
+  text-transform: uppercase;
+  color: #fff4e6;
   text-align: center;
-  color: #3e332b;
   margin-bottom: 14px;
 
   @include media(desktop) {
@@ -49,41 +45,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  color: #3e332b;
+  color: #fff4e6;
   max-width: max-content;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 
   @include media(desktop) {
+    margin-bottom: 28px;
   }
 }
 
 .contact-text {
-  font-family: 'Source Sans 3', sans-serif;
-  font-weight: 400;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  color: #3e332b;
+  color: #fff4e6;
 
   @include media(desktop) {
-  }
-}
-
-.contact-img {
-  display: none;
-
-  @include media(desktop) {
-    display: block;
-    position: absolute;
-    bottom: -20px;
-    left: 108px;
-    z-index: 0;
   }
 }

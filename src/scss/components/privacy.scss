@@ -2,10 +2,14 @@
   .header-bg-wrapper {
     background-image: none;
   }
+
+  .menu-icon {
+    fill: #ff8a00;
+  }
 }
 
 .policy-section {
-  background: #f9d0a0;
+  background: #392016;
   padding-top: 126px;
   padding-bottom: 80px;
 
@@ -16,25 +20,26 @@
 }
 
 .policy-main-title {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 700;
-  font-size: 38px;
+  font-family: 'Fredoka One', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
   line-height: 1.5;
+  text-transform: uppercase;
   text-align: center;
-  color: #205144;
+  color: #ff8a00;
   margin-bottom: 32px;
 
   @include media(desktop) {
-    margin-bottom: 40px;
+    margin-bottom: 38px;
   }
 }
 
 .policy-title {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
-  color: #3e332b;
+  color: #fff4e6;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -42,11 +47,11 @@
 }
 
 .policy-text {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #3e332b;
+  color: #fff4e6;
 
   &:not(:last-child) {
     margin-bottom: 16px;
@@ -62,11 +67,11 @@
 }
 
 .policy-item {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #3e332b;
+  color: #fff4e6;
   margin-bottom: 8px;
 
   &:last-child {
